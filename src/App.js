@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { HelloWorld } from './lib';
 
 function App() {
+
+  return (
+    <HelloWorld/>
+  )
   return (
     <div className="App">
       <header className="App-header">
