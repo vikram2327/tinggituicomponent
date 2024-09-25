@@ -1,7 +1,7 @@
-import { Box, Button, CircularProgress } from '@mui/material';
 import React from 'react';
+import { Box, Button, CircularProgress } from '@mui/material';
 
-function EnahanceUpdateActionButton({ updatingStatus, loadingStatus, onCliCkHandler,startIcon, variant, ...props }) {
+function EnhanceUpdateActionButton({ updatingStatus, loadingStatus, onCliCkHandler,startIcon, variant, ...props }) {
     return (
         <Box sx={{
             position: 'relative'
@@ -27,4 +27,4 @@ function EnahanceUpdateActionButton({ updatingStatus, loadingStatus, onCliCkHand
     );
 }
 
-export default EnahanceUpdateActionButton;
+export default EnhanceUpdateActionButton;
