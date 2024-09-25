@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import { HelloWorld } from './lib';
+import { EnahanceUpdateActionButton, HelloWorld } from './lib';
+import { Box } from '@mui/material';
 
 function App() {
 
   return (
-    <HelloWorld/>
+    <Box>
+      <HelloWorld/>
+      <EnahanceUpdateActionButton>
+        hi
+      </EnahanceUpdateActionButton>
+    </Box>
   )
   return (
     <div className="App">

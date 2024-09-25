@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "dist/bundle.js",
-  "module": "dist/auth-component.js",
+  "module": "dist/bundle.js",
   "files": [
     "dist/"
   ],
