@@ -1,0 +1,40 @@
+.logo {
+    display: flex;
+}
+
+.logoSize {
+    width: 8rem;
+    /* height: 3rem; */
+}
+
+.app-style {
+    background: #EEF6FF !important;
+    position: static !important;
+    color: #000000 !important;
+    box-shadow: 0px 0px 0px 0px !important;
+
+}
+
+.numericSize {
+    padding-top: 0.8rem;
+    /* padding-left: 0.3rem; */
+}
+
+/* .search-style {
+    margin-right: 2.5rem !important;
+} */
+
+.coinSize{
+    width:50px;
+    height:50px;
+}
+.search-panel{
+    width:100% !important;
+    border-radius: none !important;
+}
+
+#fade-menu div:nth-child(3){
+    top:50px !important;
+    left:17px !important;
+    width: 100% !important;
+}

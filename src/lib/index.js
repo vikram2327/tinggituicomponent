@@ -2,7 +2,7 @@
 export { default as HelloWorld } from './HelloWorld';
 // Export all components (inputs, dataDisplay, etc.)
 export * from './components';
-// export * from './layouts';
+export * from './layouts';
 
 // Fallback for non-existent components
 export const InvalidComponent = () => {
