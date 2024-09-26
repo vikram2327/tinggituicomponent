@@ -22,6 +22,10 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'], // These loaders handle CSS
+      },
     ],
   },
   externals: {
@@ -39,4 +43,6 @@ module.exports = {
     },
   },
   mode: 'production',
+  // mode: 'development',
+  // devtool: 'source-map',
 };
